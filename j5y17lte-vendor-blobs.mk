@@ -46,10 +46,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
     vendor/samsung/j5y17lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/j5y17lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/j5y17lte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/j5y17lte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/j5y17lte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/j5y17lte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
-    vendor/samsung/j5y17lte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/libstainkiller.so:system/vendor/lib/libstainkiller.so \
     vendor/samsung/j5y17lte/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/samsung/j5y17lte/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/samsung/j5y17lte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
@@ -73,7 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/vendor/lib/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvvetx.so  \
     vendor/samsung/j5y17lte/proprietary/vendor/lib/libvndsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndsecril-client.so \
     vendor/samsung/j5y17lte/proprietary/vendor/etc/Tfa9890.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/Tfa9890.cnt \
- 
 
 # omx stuff
 PRODUCT_COPY_FILES += \
@@ -134,6 +134,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
     vendor/samsung/j5y17lte/proprietary/lib64/libprotobuf-cpp-fooo.so:system/lib64/libprotobuf-cpp-fooo.so \
     vendor/samsung/j5y17lte/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
+    vendor/samsung/j5y17lte/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
     vendor/samsung/j5y17lte/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
 
 # bsp
@@ -150,8 +151,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/_bsp/lib/libfimg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfimg.so \
     vendor/samsung/j5y17lte/proprietary/_bsp/lib/libhdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmi.so \
     vendor/samsung/j5y17lte/proprietary/_bsp/lib/libhwcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwcutils.so \
-    vendor/samsung/j5y17lte/proprietary/_bsp/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
-    vendor/samsung/j5y17lte/proprietary/_bsp/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
+    vendor/samsung/j5y17lte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/libion_exynos.so:system/lib/libion_exynos.so \
     vendor/samsung/j5y17lte/proprietary/_bsp/lib/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpp.so \
     vendor/samsung/j5y17lte/proprietary/_bsp/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/samsung/j5y17lte/proprietary/_bsp/lib/omx/libOMX.Exynos.MPEG2.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG2.Decoder.so \
